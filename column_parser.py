@@ -11,10 +11,10 @@ def parse_columns(filename):
                 car = {}
                 stats = line.split("\t")
                 for i in range(len(columns)):
-                    car[columns[i]] = stats[i].strip()
+                    car[columns[i].strip()] = stats[i].strip()
 
                 #map from car number to that car's results
-                result[stats[0]]= car
+                result[stats[0].strip()]= car
 
         return result
 
