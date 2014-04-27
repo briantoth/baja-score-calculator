@@ -1,7 +1,7 @@
 from column_parser import parse_columns
 
-def get_sales_score():
-	results = parse_columns("./el_paso_4-27-14/sales.tsv")
+def get_design_score():
+	results = parse_columns("./el_paso_4-27-14/design.tsv")
 	scores = {}
 	print results
 	for car in results:
@@ -9,9 +9,9 @@ def get_sales_score():
 		score = car ['Final Score']
 		scores[carNum] = score
 
-	return scores
+	return design
 
 		
 if __name__ == "__main__":
-    get_sales_score();
+    get_design_score();
 
