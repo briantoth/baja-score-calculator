@@ -3,7 +3,7 @@ from column_parser import parse_columns
 def get_sales_score():
 	results = parse_columns("./el_paso_4-27-14/sales.tsv")
 	scores = {}
-	print results
+	
 	for car in results:
 		carNum = car['Car Number']
 		score = car ['Final Score']

@@ -1,6 +1,7 @@
 from column_parser import parse_columns
 
 def get_manuv_score():
+	debug = False
 	worst = 0
 	best = 1000	
 	results = parse_columns("./el_paso_4-27-14/manuverability.tsv")
@@ -10,8 +11,9 @@ def get_manuv_score():
 			best = time
 		if time > worst:
 			worst = time
-	print worst
-	print best
+	if debug: 
+		print worst
+		print best
 	scores = {}
 		
 	for car in results:
@@ -25,7 +27,8 @@ def get_manuv_score():
 			score = 0		
 		if carNum not in scores or (scores[carNum] < score):
 			scores[carNum] = score
-	print scores['24']	
+	if debug:
+		print scores['24']	
 	return scores
 
 		
