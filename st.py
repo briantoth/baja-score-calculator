@@ -2,7 +2,7 @@ from column_parser import parse_columns
 
 #We assumed Method C (Fixed-distance, some succeed)
 def get_st_score():
-    debug = True
+    debug = False
     max_points = 75
     result = {}
     scores = parse_columns("./el_paso_4-27-14/suspTraction.tsv")
