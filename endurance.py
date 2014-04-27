@@ -1,7 +1,7 @@
 from column_parser import parse_columns
 
 def get_endurance_score():
-    debug = True
+    debug = False
     results = parse_columns("./el_paso_4-27-14/endurance.tsv")
     scores = {}
     max_laps = 0
