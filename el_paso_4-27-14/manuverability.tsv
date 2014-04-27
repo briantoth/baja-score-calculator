@@ -1,30 +1,88 @@
-Position	Car Number	School Name	Team Name	Status	Adjusted Time	Raw Time	GateMiss
-1	4	Univ of Michigan - Ann Arbor	Maize	OK	66.00000	66.00000	0
-2	35	Oregon State Univ	Beaver Racing	OK	71.00000	71.00000	0
-3	36	Universite Laval	Alerion	OK	73.00000	73.00000	0
-4	46	Univ of Calif - Los Angeles	UCLA Racing	OK	77.00000	77.00000	0
-5	10	Iowa State Univ	Cyclone Racing	OK	82.00000	82.00000	0
-6	56	Universidad La Salle	Aguilas La Salle	OK	83.00000	78.00000	1
-7	105	West Virginia Univ	Mountaineers	OK	86.00000	76.00000	2
-8	32	Universidad De La Salle Bajio	Bajio 1	OK	87.00000	77.00000	2
-9	72	California Polytechnic State Univ-SLO	Cal Poly Racing	OK	90.00000	90.00000	0
-10	3	Rochester Institute of Technology	RIOT RACING	OK	91.00000	81.00000	2
-11	6	Ecole De Technologie Superieure	ETS Motorsports	OK	91.00000	86.00000	1
-12	18	Univ of Missouri - Kansas City	UMKC Baja Racing	OK	94.00000	89.00000	1
-13	47	Univ of Arkansas - Fayetteville	Racing Razorbacks	OK	96.00000	76.00000	4
-14	2	Univ of Louisville	Speed Motorsports	OK	97.00000	87.00000	2
-15	29	Kansas State Univ	Wildcat Racing	OK	98.00000	93.00000	1
-16	50	Auburn Univ	War Eagle Motorsports	OK	99.00000	89.00000	2
-17	60	Purdue Univ - W Lafayette	Titan	OK	102.00000	82.00000	4
-18	65	Universidad Autonoma de Ciudad Juarez	Indios Racing	OK	104.00000	94.00000	2
-19	25	Univ of Tennessee - Martin	Skyhawk Racing	OK	115.00000	100.00000	3
-20	96	California State Univ - Fresno	Fresno State Bulldog Racing	OK	116.00000	106.00000	2
-21	113	Universidad de Carabobo	Organizacion SAE UC Venezuela	OK	121.00000	116.00000	1
-22	40	New Mexico State Univ	NMSU Motorsports	OK	128.00000	128.00000	0
-23	109	Univ of Nebraska - Lincoln	Shake 'N' Bake Racing	OK	134.00000	129.00000	1
-24	17	Cetys Universidad	Z7	OK	151.00000	131.00000	4
-25	74	Yeungnam College of Science & Tech	YNC Baja SAE Expedition	OK	151.00000	131.00000	4
-26	91	Univ of Tulsa	Tulsa Baja	OK	156.00000	146.00000	2
-27	106	Northern Arizona Univ	NAU	OK	184.00000	159.00000	5
-28	85	Oregon Inst of Tech	Oregon Tech Racing	OK	241.00000	211.00000	6
-29	30	Lamar Univ	Cardinal Racing	OK	246.00000	226.00000	4
+Car Number	School Name	Team Name	Status	Adjusted Time	Raw Time	GateMiss
+25	Univ of Tennessee - Martin	Skyhawk Racing	DQ	0.00000	0.00000	0
+29	Kansas State Univ	Wildcat Racing	DQ	0.00000	0.00000	0
+25	Univ of Tennessee - Martin	Skyhawk Racing	OK	115.00000	100.00000	3
+11	Northeastern Univ	Skunkworks	DQ	0.00000	0.00000	0
+10	Iowa State Univ	Cyclone Racing	OK	90.00000	90.00000	0
+6	Ecole De Technologie Superieure	ETS Motorsports	OK	101.00000	81.00000	4
+18	Univ of Missouri - Kansas City	UMKC Baja Racing	OK	105.00000	95.00000	2
+60	Purdue Univ - W Lafayette	Titan	DQ	0.00000	0.00000	0
+50	Auburn Univ	War Eagle Motorsports	DQ	0.00000	0.00000	0
+4	Univ of Michigan - Ann Arbor	Maize	DQ	0.00000	0.00000	0
+11	Northeastern Univ	Skunkworks	DQ	0.00000	0.00000	0
+47	Univ of Arkansas - Fayetteville	Racing Razorbacks	OK	120.00000	90.00000	6
+2	Univ of Louisville	Speed Motorsports	OK	97.00000	87.00000	2
+63	Keimyung University	Speed Limit	DQ	0.00000	0.00000	0
+10	Iowa State Univ	Cyclone Racing	OK	82.00000	82.00000	0
+27	Franklin W Olin College of Engineering	Phoenix Racing	DQ	0.00000	0.00000	0
+58	Univ of Waterloo	UWaterloo Baja	DQ	0.00000	0.00000	0
+24	Cornell Univ	BIG RED RACING	DQ	0.00000	0.00000	0
+96	California State Univ - Fresno	Fresno State Bulldog Racing	OK	180.00000	165.00000	3
+101	San Jose State University	Spartan Racing	DQ	0.00000	0.00000	0
+74	Yeungnam College of Science & Tech	YNC Baja SAE Expedition	OK	155.00000	145.00000	2
+47	Univ of Arkansas - Fayetteville	Racing Razorbacks	OK	96.00000	76.00000	4
+60	Purdue Univ - W Lafayette	Titan	OK	102.00000	82.00000	4
+12	North Carolina A & T State Univ	Aggie Racing	DQ	0.00000	0.00000	0
+16	Virginia Tech	VT Baja	DQ	0.00000	0.00000	0
+72	California Polytechnic State Univ-SLO	Cal Poly Racing	OK	90.00000	90.00000	0
+7	Univ of Maryland - Baltimore County	Retriever Racing	DQ	0.00000	0.00000	0
+19	SUNY - Buffalo	UB Motorsports	DQ	0.00000	0.00000	0
+32	Universidad De La Salle Bajio	Bajio 1	OK	87.00000	77.00000	2
+50	Auburn Univ	War Eagle Motorsports	OK	99.00000	89.00000	2
+46	Univ of Calif - Los Angeles	UCLA Racing	OK	86.00000	81.00000	1
+36	Universite Laval	Alerion	OK	73.00000	73.00000	0
+65	Universidad Autonoma de Ciudad Juarez	Indios Racing	DQ	0.00000	0.00000	0
+35	Oregon State Univ	Beaver Racing	OK	71.00000	71.00000	0
+96	California State Univ - Fresno	Fresno State Bulldog Racing	OK	116.00000	106.00000	2
+105	West Virginia Univ	Mountaineers	OK	86.00000	76.00000	2
+73	Univ of Wyoming	Happy Jack Racing	DQ	0.00000	0.00000	0
+63	Keimyung University	Speed Limit	DQ	0.00000	0.00000	0
+26	Universite de Sherbrooke	Sherbrooke Racing Team	DQ	0.00000	0.00000	0
+58	Univ of Waterloo	UWaterloo Baja	DQ	0.00000	0.00000	0
+38	Queen's Univ - Ontario Canada	Queen's University Baja SAE	DQ	0.00000	0.00000	0
+29	Kansas State Univ	Wildcat Racing	OK	98.00000	93.00000	1
+70	Louisiana Tech Univ	Mud Dawg Racing	DQ	0.00000	0.00000	0
+93	North Dakota State Univ	Bison Motorsports	DQ	0.00000	0.00000	0
+85	Oregon Inst of Tech	Oregon Tech Racing	OK	241.00000	211.00000	6
+1	McGill Univ	McGill Baja Racing	DQ	0.00000	0.00000	0
+14	New Mexico Inst of Mining & Tech	Dirty Miners	DQ	0.00000	0.00000	0
+3	Rochester Institute of Technology	RIOT RACING	OK	91.00000	81.00000	2
+56	Universidad La Salle	Aguilas La Salle	OK	83.00000	78.00000	1
+62	Louisiana State Univ	LSU Tiger Racing	DQ	0.00000	0.00000	0
+91	Univ of Tulsa	Tulsa Baja	OK	156.00000	146.00000	2
+43	Instituto Tecnologico de Chihuahua	Zarape Racing Team	DQ	0.00000	0.00000	0
+24	Cornell Univ	BIG RED RACING	DQ	0.00000	0.00000	0
+7	Univ of Maryland - Baltimore County	Retriever Racing	DQ	0.00000	0.00000	0
+20	Univ of Wisconsin - Milwaukee	UWM BAJA	DQ	0.00000	0.00000	0
+49	San Diego State Univ	Aztec Racing	DQ	0.00000	0.00000	0
+65	Universidad Autonoma de Ciudad Juarez	Indios Racing	OK	104.00000	94.00000	2
+113	Universidad de Carabobo	Organizacion SAE UC Venezuela	OK	121.00000	116.00000	1
+103	Manhattan College	Jasper Racing	DQ	0.00000	0.00000	0
+30	Lamar Univ	Cardinal Racing	OK	246.00000	226.00000	4
+38	Queen's Univ - Ontario Canada	Queen's University Baja SAE	DQ	0.00000	0.00000	0
+19	SUNY - Buffalo	UB Motorsports	DQ	0.00000	0.00000	0
+82	Univ of Alaska - Anchorage	Midnight Sun Racing	DQ	0.00000	0.00000	0
+55	Univ of Pretoria	TuksBaja	DQ	0.00000	0.00000	0
+16	Virginia Tech	VT Baja	DQ	0.00000	0.00000	0
+64	Univ of Nevada - Las Vegas	Rebel Racing	DQ	0.00000	0.00000	0
+106	Northern Arizona Univ	NAU	OK	184.00000	159.00000	5
+17	Cetys Universidad	Z7	OK	151.00000	131.00000	4
+99	Idaho State University	Bengals Racing	DQ	0.00000	0.00000	0
+86	Univ of Calif - Davis	Davis Baja	DQ	0.00000	0.00000	0
+56	Universidad La Salle	Aguilas La Salle	OK	86.00000	81.00000	1
+73	Univ of Wyoming	Happy Jack Racing	DQ	0.00000	0.00000	0
+40	New Mexico State Univ	NMSU Motorsports	OK	128.00000	128.00000	0
+109	Univ of Nebraska - Lincoln	Shake 'N' Bake Racing	OK	134.00000	129.00000	1
+32	Universidad De La Salle Bajio	Bajio 1	OK	91.00000	81.00000	2
+80	Christian Brothers Univ	Bucs	DQ	0.00000	0.00000	0
+76	Univ of Kansas - Lawrence	KU SAE Baja	DQ	0.00000	0.00000	0
+23	ITESM - Campus QRO	Exergia Racing Team	DQ	0.00000	0.00000	0
+52	Universidad Autonoma Estado Mexico	Sara Juana	DQ	0.00000	0.00000	0
+74	Yeungnam College of Science & Tech	YNC Baja SAE Expedition	OK	151.00000	131.00000	4
+84	California State Univ - Los Angeles	Golden Eagle Motorsports	DQ	0.00000	0.00000	0
+49	San Diego State Univ	Aztec Racing	DQ	0.00000	0.00000	0
+4	Univ of Michigan - Ann Arbor	Maize	OK	66.00000	66.00000	0
+46	Univ of Calif - Los Angeles	UCLA Racing	OK	77.00000	77.00000	0
+6	Ecole De Technologie Superieure	ETS Motorsports	OK	91.00000	86.00000	1
+18	Univ of Missouri - Kansas City	UMKC Baja Racing	OK	94.00000	89.00000	1
+35	Oregon State Univ	Beaver Racing	OK	73.00000	68.00000	1
