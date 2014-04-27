@@ -2,7 +2,7 @@ def parse_columns(filename):
     with open(filename, 'r') as f:
         first = True
         columns = []
-        result = []
+        result = {}
         for line in f:
             if first:
                 first = False
@@ -13,10 +13,10 @@ def parse_columns(filename):
                 for i in range(len(columns)):
                     car[columns[i]] = stats[i].strip()
 
-                result.append(car)
+                #map from car number to that car's results
+                result[stats[0]]= car
 
         return result
 
 if __name__ == "__main__":
     print(parse_columns("./el_paso_4-27-14/sales.tsv"))
-
