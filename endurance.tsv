@@ -1,0 +1,111 @@
+Position	Car Number	School Name	Team Name	# of Laps	Last Lap Time	Last Lap @ Time	BestLap Time	Best Lap on Lap #	Average Lap Time
+1	10	Iowa State Univ	Cyclone Racing	44	4:38.764	15:44:41.686	4:31.255	41	5:28.876
+2	35	Oregon State Univ	Beaver Racing	44	4:50.068	15:47:35.085	4:23.635	10	5:31.094
+3	1	McGill Univ	McGill Baja Racing	44	5:45.164	15:48:29.017	4:18.591	14	5:34.163
+4	24	Cornell Univ	BIG RED RACING	43	4:28.758	15:47:06.102	4:15.376	16	5:40.145
+5	3	Rochester Institute of Technology	RIOT RACING	43	6:24.073	15:49:05.733	4:24.619	30	5:42.993
+6	16	Virginia Tech	VT Baja	41	7:22.493	15:48:54.938	4:48.622	14	5:57.344
+7	11	Northeastern Univ	Skunkworks	41	5:48.292	15:49:07.338	4:33.715	11	5:55.777
+8	20	Univ of Wisconsin - Milwaukee	UWM BAJA	40	5:05.103	15:45:03.552	4:55.784	26	6:01.727
+9	29	Kansas State Univ	Wildcat Racing	39	5:16.769	15:45:43.208	5:00.123	16	6:06.893
+10	23	ITESM - Campus QRO	Exergia Racing Team	39	5:19.251	15:45:49.122	4:56.594	31	6:11.297
+11	60	Purdue Univ - W Lafayette	Titan	39	5:25.360	15:47:05.489	4:22.024	31	6:14.940
+12	19	SUNY - Buffalo	UB Motorsports	38	5:10.018	15:46:14.993	4:28.259	30	6:23.471
+13	46	Univ of Calif - Los Angeles	UCLA Racing	37	7:02.757	15:16:48.562	4:19.009	35	5:48.995
+14	105	West Virginia Univ	Mountaineers	37	5:45.634	15:46:52.613	4:40.682	29	6:32.850
+15	55	Univ of Pretoria	TuksBaja	36	5:23.147	15:46:09.381	5:13.294	25	6:38.842
+16	4	Univ of Michigan - Ann Arbor	Maize	36	5:35.865	15:48:00.628	4:13.152	19	6:49.732
+17	84	California State Univ - Los Angeles	Golden Eagle Motorsports	33	7:27.898	15:48:56.158	5:17.044	28	7:22.613
+18	6	Ecole De Technologie Superieure	ETS Motorsports	32	9:48.460	15:49:14.333	4:14.529	16	8:00.475
+19	93	North Dakota State Univ	Bison Motorsports	31	5:23.296	14:52:16.589	4:35.671	27	5:57.674
+20	49	San Diego State Univ	Aztec Racing	31	4:29.953	15:45:13.094	4:20.240	20	7:52.084
+21	22	Univ of Rhode Island	URI Motorsports	31	5:22.664	15:45:50.729	4:57.378	14	6:49.792
+22	38	Queen's Univ - Ontario Canada	Queen's University Baja SAE	29	5:21.215	15:46:13.776	4:29.672	21	8:22.004
+23	7	Univ of Maryland - Baltimore County	Retriever Racing	28	5:05.951	15:30:17.326	4:38.892	13	8:11.752
+24	73	Univ of Wyoming	Happy Jack Racing	28	5:35.596	15:47:02.645	4:55.981	7	8:38.436
+25	58	Univ of Waterloo	UWaterloo Baja	28	15:43.634	15:51:18.079	5:21.396	14	8:56.554
+26	96	California State Univ - Fresno	Fresno State Bulldog Racing	27	6:55.525	15:47:37.777	5:03.524	16	8:54.794
+27	65	Universidad Autonoma de Ciudad Juarez	Indios Racing	27	8:08.125	15:48:52.807	5:12.887	17	9:05.360
+28	12	North Carolina A & T State Univ	Aggie Racing	26	6:41.272	15:45:37.206	5:23.453	7	9:15.729
+29	2	Univ of Louisville	Speed Motorsports	26	4:46.520	15:47:18.582	4:21.378	15	9:31.943
+30	14	New Mexico Inst of Mining & Tech	Dirty Miners	24	5:44.101	15:23:57.751	4:59.439	19	9:11.839
+31	75	ESIA Tlalnepantla	Leones Blancos	24	5:33.745	15:46:12.967	5:27.545	21	9:50.134
+32	36	Universite Laval	Alerion	24	4:41.559	15:49:15.771	4:41.559	24	10:26.771
+33	40	New Mexico State Univ	NMSU Motorsports	23	6:13.530	15:47:15.532	5:15.140	18	10:52.163
+34	56	Universidad La Salle	Aguilas La Salle	23	5:55.240	15:49:04.043	4:56.767	15	10:50.444
+35	50	Auburn Univ	War Eagle Motorsports	21	4:51.324	14:31:48.033	4:31.577	11	8:08.398
+36	42	Univ of Central Florida	The Knights who say Ni	21	6:47.275	14:56:03.571	5:04.176	17	9:12.131
+37	32	Universidad De La Salle Bajio	Bajio 1	21	5:31.583	15:45:54.917	4:57.620	6	11:50.745
+38	113	Universidad de Carabobo	Organizacion SAE UC Venezuela	20	8:00.071	15:49:00.352	5:50.699	5	12:18.125
+39	43	Instituto Tecnologico de Chihuahua	Zarape Racing Team	20	11:56.696	15:49:39.270	5:33.245	15	13:02.308
+40	103	Manhattan College	Jasper Racing	19	6:46.887	15:35:24.338	5:23.122	11	12:09.521
+41	86	Univ of Calif - Davis	Davis Baja	18	21:36.694	14:13:20.113	5:35.120	7	8:13.864
+42	102	US Military Academy	West Point Mini Baja	18	6:39.662	15:35:10.191	6:29.374	17	12:37.459
+43	37	Univ of Puerto Rico	RUM Racing Baja	17	7:08.750	14:04:27.645	5:20.711	10	7:56.975
+44	106	Northern Arizona Univ	NAU	17	50:11.194	15:05:22.713	5:41.081	13	11:44.978
+45	63	Keimyung University	Speed Limit	17	5:12.628	15:25:20.411	5:10.345	11	13:29.001
+46	30	Lamar Univ	Cardinal Racing	16	3:53:18.875	15:46:23.279	3:53:18.875	2	3:53:18.875
+47	81	Harding Univ	Bison Baja	16	5:59.695	15:49:02.645	5:14.945	12	15:55.639
+48	51	Embry-Riddle Aero Univ - Daytona Beach	Lady Eagles	15	6:57.124	14:17:32.786	6:01.689	8	9:51.096
+49	72	California Polytechnic State Univ-SLO	Cal Poly Racing	15	10:42.443	14:53:30.152	4:52.322	5	12:57.679
+50	18	Univ of Missouri - Kansas City	UMKC Baja Racing	15	5:54.500	15:05:24.275	5:07.470	8	13:41.145
+51	101	San Jose State University	Spartan Racing	15	5:58.828	15:32:58.557	5:22.080	14	15:53.037
+52	64	Univ of Nevada - Las Vegas	Rebel Racing	14	6:10.259	15:47:40.613	5:10.450	7	18:03.266
+53	39	Arizona State Univ Polytechnic	SunDevil Racing Development	13	5:02.927	15:03:49.939	5:02.927	13	15:59.640
+54	15	Univ of Texas - Pan American	UTPA Baja Racing	13	5:02.498	15:49:40.685	4:54.621	11	5:44.433
+55	25	Univ of Tennessee - Martin	Skyhawk Racing	12	6:18.571	14:12:52.463	5:47.669	11	12:50.645
+56	109	Univ of Nebraska - Lincoln	Shake 'N' Bake Racing	12	13:54.736	14:38:38.326	4:36.550	6	14:24.281
+57	110	San Diego State Univ	SDSU Baja	12	7:07.043	15:46:29.228	6:11.725	6	16:22.407
+58	47	Univ of Arkansas - Fayetteville	Racing Razorbacks	11	7:28.786	14:14:45.819	4:58.457	10	14:13.027
+59	90	Alfred State College	Pioneer Racing	11	5:26.710	15:22:10.509	5:24.478	7	20:29.269
+60	76	Univ of Kansas - Lawrence	KU SAE Baja	11	5:19.401	15:30:28.410	5:19.401	11	21:49.032
+61	27	Franklin W Olin College of Engineering	Phoenix Racing	11	6:00.162	15:47:03.803	5:30.313	7	12:20.971
+62	91	Univ of Tulsa	Tulsa Baja	9	6:40.895	14:30:10.530	5:57.053	7	18:59.595
+63	26	Universite de Sherbrooke	Sherbrooke Racing Team	8	11:03.526	12:39:50.432	4:57.326	6	7:11.284
+64	54	Wichita State Univ	Shocker Racing	7	6:32.247	13:26:38.255	5:58.451	4	15:14.513
+65	85	Oregon Inst of Tech	Oregon Tech Racing	7	2:55:33.316	15:47:17.483	7:35.569	6	37:28.662
+66	52	Universidad Autonoma Estado Mexico	Sara Juana	7	 	 	 	0	 
+67	89	Rayat Bahra Inst Of Eng	Indus Pride	5	6:31.147	12:26:38.968	6:31.147	5	7:22.949
+68	17	Cetys Universidad	Z7	5	12:47.780	15:14:31.088	8:25.069	3	49:32.144
+69	108	New Mexico State Univ	NMSU Motorsports II	4	6:43.859	14:55:56.835	6:43.859	4	1:00:53.002
+70	13	Univ of Nebraska - Lincoln	Husker Racing	3	4:58.951	13:47:10.211	4:58.951	3	46:45.514
+71	99	Idaho State University	Bengals Racing	3	1:53:01.236	14:01:19.701	9:10.370	2	1:01:05.803
+72	21	Vellore Institute of Technology	Team Jaabaz	3	1:11:08.625	15:47:27.758	1:11:08.625	3	1:35:26.356
+73	70	Louisiana Tech Univ	Mud Dawg Racing	1	 	14:13:08.969	 	0	 
+74	28	Cairo University	BCURT	0	 	 	 	0	 
+75	31	California State Poly Univ - Pomona	Bronco Racing	0	 	 	 	0	 
+76	33	George Washington Univ	Geoff	0	 	 	 	0	 
+77	34	Univ of Texas - El Paso	Mad Pete Motorsports	0	 	 	 	0	 
+78	41	Georgia Institute of Technology	GT Offroad	0	 	 	 	0	 
+79	44	Univ of Tennessee -Chattanooga	UTC Racing Mocs	0	 	 	 	0	 
+80	45	Univ of Houston - College of Tech	LEVEL	0	 	 	 	0	 
+81	48	Milwaukee School of Engrg	Nuclear Fallout	0	 	 	 	0	 
+82	53	Western Washington Univ	WWU Racing	0	 	 	 	0	 
+83	57	Delhi Technological Univ	Deltech Baja	0	 	 	 	0	 
+84	59	University of Vermont	Vermontsters	0	 	 	 	0	 
+85	61	Gautam Buddha University	VAJRAYANA	0	 	 	 	0	 
+86	62	Louisiana State Univ	LSU Tiger Racing	0	 	 	 	0	 
+87	66	Universidad La Salle Cuernavaca	Gallos ULSAC	0	 	 	 	0	 
+88	67	Universidad La Salle Pachuca	Halcones	0	 	 	 	0	 
+89	68	Khalifa University	KU Racers	0	 	 	 	0	 
+90	69	PSG College of Technology	baja bhais	0	 	 	 	0	 
+91	71	ITESM - Campus Toluca	BORREGOS TOLUCA	0	 	 	 	0	 
+92	74	Yeungnam College of Science & Tech	YNC Baja SAE Expedition	0	 	 	 	0	 
+93	77	Intituto Tecnologico de CD Cuauhtemoc	Daram	0	 	 	 	0	 
+94	78	Cegep de Sherbrooke	Baja Cegep de Sherbrooke	0	 	 	 	0	 
+95	79	Univ of Missouri	Mizzou Baja	0	 	 	 	0	 
+96	80	Christian Brothers Univ	Bucs	0	 	 	 	0	 
+97	82	Univ of Alaska - Anchorage	Midnight Sun Racing	0	 	 	 	0	 
+98	83	Universidad Technologica de Ciudad Juarez	TOROS BRAVOS	0	 	 	 	0	 
+99	87	Sanilac Career Center	ADD racing	0	 	 	 	0	 
+100	88	Univ of Helwan	BHU	0	 	 	 	0	 
+101	92	Ohio State Univ	Buckeye Baja	0	 	 	 	0	 
+102	97	Lovely Professional University	Illuminati Racers	0	 	 	 	0	 
+103	98	Gonzaga Universtity	Gonzaga	0	 	 	 	0	 
+104	104	Boise State Univ	Boise State Motorsports	0	 	 	 	0	 
+105	107	Univ of Texas - El Paso	Mad Pete Motorsports II	0	 	 	 	0	 
+106	111	Brigham Young Univ	BYU Jr. Baja	0	 	 	 	0	 
+107	114	Olympic College	Olympic College Baja Extreme	0	 	 	 	0	 
+108	115	Texas A&M - Kingsville	Javelina Motorsports	0	 	 	 	0	 
+109	116	Univ of Science & Tech of Iran	sorena	0	 	 	 	0	 
+110	0	- 425646 -	 	0	 	 	 	0	 
