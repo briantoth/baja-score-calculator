@@ -2,7 +2,7 @@ def parse_columns(filename):
     with open(filename, 'r') as f:
         first = True
         columns = []
-        result = {}
+        result = []
         for line in f:
             if first:
                 first = False
@@ -14,7 +14,7 @@ def parse_columns(filename):
                     car[columns[i].strip()] = stats[i].strip()
 
                 #map from car number to that car's results
-                result[stats[0].strip()]= car
+                result.append(car)
 
         return result
 
