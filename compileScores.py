@@ -24,7 +24,7 @@ def get_compiled_score():
             schools[data[0].strip()] = data[1].strip()
 
     overallScores = {}
-    for num in range(0,109):
+    for num in range(1,117):
         carNum = str(num)
         accel = get_score(accelScores, carNum)
         cost = get_score(costScores, carNum)
@@ -54,6 +54,7 @@ if __name__ == "__main__":
    print("School Name, Car Number, Acceleration, Cost, Design, Hill, Maneuverability, Sales, Susp&Traction, Endurance, Overall")
    for num in output.keys():
        car = output[num]
-       print(str(car['school']) + ", " + num + ", " + str(car['accel']) + ", " + str(car['cost']) + ", " + str(car['design']) +
-             ", "+ str(car['hill']) + ", "+ str(car['manuv']) + ", "+ str(car['sales']) +
-             ", "+ str(car['st']) + ", "+ str(car['endurance']) + ", " + str(car['overall']))
+       if car['school'] != "":
+           print(car['school'] + ", " + num + ", " + str(car['accel']) + ", " + str(car['cost']) + ", " + str(car['design']) +
+                 ", "+ str(car['hill']) + ", "+ str(car['manuv']) + ", "+ str(car['sales']) +
+                 ", "+ str(car['st']) + ", "+ str(car['endurance']) + ", " + str(car['overall']))
