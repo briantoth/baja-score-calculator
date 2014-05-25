@@ -1,7 +1,7 @@
 from column_parser import parse_columns
 
 #We assumed Method C (Fixed-distance, some succeed)
-def get_st_score(competition_name):
+def get_st_score(competition_name, time_column):
     debug = False
     max_points = 75
     result = {}
@@ -10,7 +10,7 @@ def get_st_score(competition_name):
     fastest_complete_time = float("inf")
     max_distance = 0
     for score in scores:
-        time= float(score["Adjusted Time"])
+        time= float(score[time_column])
         if time > 0 and time < fastest_complete_time:
             max_distance = get_distance(score)
             fastest_complete_time = time
@@ -20,7 +20,7 @@ def get_st_score(competition_name):
         print("Max distance: " + str(max_distance))
 
     for score in scores:
-        time= float(score["Adjusted Time"])
+        time= float(score[time_column])
         if time > 0:
             car_number = score["Car Number"]
             points = max_points * fastest_complete_time / time
