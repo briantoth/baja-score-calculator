@@ -1,10 +1,10 @@
 from column_parser import parse_columns
 
-def get_manuv_score():
+def get_manuv_score(competition_name):
 	debug = False
 	worst = 0
 	best = 1000
-	results = parse_columns("./el_paso_4-27-14/manuverability.tsv")
+	results = parse_columns(competition_name + "/manuverability.tsv")
 	for car in results:
 		time = float(car['Adjusted Time'])
 		if time < best and time > 0:

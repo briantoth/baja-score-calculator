@@ -1,4 +1,4 @@
-from column_parser import parse_columns
+import sys
 from accel_calc import get_accel_score
 from cost import get_cost_score
 from design import get_design_score
@@ -8,17 +8,17 @@ from sales import get_sales_score
 from st import get_st_score
 from endurance import get_endurance_score
 
-def get_compiled_score():
-    accelScores = get_accel_score()
-    costScores = get_cost_score()
-    designScores = get_design_score()
-    hillScores = get_hill_score()
-    manuvScores = get_manuv_score()
-    salesScores = get_sales_score()
-    stScores = get_st_score()
-    enduranceScores = get_endurance_score()
+def get_compiled_score(competition_name):
+    accelScores = get_accel_score(competition_name)
+    costScores = get_cost_score(competition_name)
+    designScores = get_design_score(competition_name)
+    hillScores = get_hill_score(competition_name)
+    manuvScores = get_manuv_score(competition_name)
+    salesScores = get_sales_score(competition_name)
+    stScores = get_st_score(competition_name)
+    enduranceScores = get_endurance_score(competition_name)
     schools = {}
-    with open("./el_paso_4-27-14/schools.tsv", 'r') as f:
+    with open(competition_name + "/schools.tsv", 'r') as f:
         for line in f:
             data = line.split("\t")
             schools[data[0].strip()] = data[1].strip()
@@ -50,7 +50,7 @@ def get_score(scores, carNum):
     return 0
 
 if __name__ == "__main__":
-   output = get_compiled_score()
+   output = get_compiled_score(sys.argv[1])
    print("School Name, Car Number, Acceleration, Cost, Design, Hill, Maneuverability, Sales, Susp&Traction, Endurance, Overall")
    for num in output.keys():
        car = output[num]
