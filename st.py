@@ -1,11 +1,11 @@
 from column_parser import parse_columns
 
 #We assumed Method C (Fixed-distance, some succeed)
-def get_st_score():
+def get_st_score(competition_name):
     debug = False
     max_points = 75
     result = {}
-    scores = parse_columns("./el_paso_4-27-14/suspTraction.tsv")
+    scores = parse_columns(competition_name + "/suspTraction.tsv")
     #first figure out the scores of those who made it
     fastest_complete_time = float("inf")
     max_distance = 0

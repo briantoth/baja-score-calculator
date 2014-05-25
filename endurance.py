@@ -1,8 +1,8 @@
 from column_parser import parse_columns
 
-def get_endurance_score():
+def get_endurance_score(competition_name):
     debug = False
-    results = parse_columns("./el_paso_4-27-14/endurance.tsv")
+    results = parse_columns(competition_name + "/endurance.tsv")
     scores = {}
     max_laps = 0
     min_laps = float("inf")

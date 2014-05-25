@@ -1,7 +1,7 @@
 from column_parser import parse_columns
 
-def get_sales_score():
-    results = parse_columns("./el_paso_4-27-14/sales.tsv")
+def get_sales_score(competition_name):
+    results = parse_columns(competition_name + "/sales.tsv")
     scores = {}
 
     for car in results:

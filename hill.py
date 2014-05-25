@@ -1,10 +1,10 @@
 from column_parser import parse_columns
 
 #We assumed Method C (Fixed-distance, some succeed)
-def get_hill_score():
+def get_hill_score(competition_name):
     max_points = 75
     result = {}
-    scores = parse_columns("./el_paso_4-27-14/hill.tsv")
+    scores = parse_columns(competition_name + "/hill.tsv")
     #first figure out the scores of those who made it
     fastest_complete_time = float("inf")
     max_distance = 0
