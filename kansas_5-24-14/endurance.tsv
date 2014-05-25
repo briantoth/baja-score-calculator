@@ -1,0 +1,117 @@
+Current Position	Car Number	School Name	Team Name	# of Laps
+1	45	Iowa State Univ	Cyclone Racing	56
+2	6	Univ of Michigan - Ann Arbor	Maize	55
+3	86	Pennsylvania College of Technology	Wildcats	52
+4	13	Centro Universitario Da FEI	FEI BAJA SAE	52
+5	30	Virginia Western Comm Coll	VWCC Motorsports	51
+6	15	Georgia Southern Univ	Eagle Motorsports	50
+7	24	Univ of Nebraska - Lincoln	Husker Racing	49
+8	85	Univ of Calif - Los Angeles	UCLA Racing	48
+9	12	Escola Polit‚cnica da Universidade de S?o Paulo	POLI AUDAX	48
+10	9	Rochester Institute of Technology	RIOT RACING	48
+11	93	Ecole Polytechnique De Montreal	poly mud bees	47
+12	23	McGill Univ	McGill Baja Racing	47
+13	29	Clemson Univ	CUBaja Racing	47
+14	11	Universidade Federal de Pernambuco	Mangue Baja	46
+15	1	Cornell Univ	BIG RED RACING	46
+16	4	Ecole De Technologie Superieure	ETS Motorsports	45
+17	64	Oklahoma State Univ	OSU Cowboy Racing	45
+18	98	Lawrence Technological Univ	Blue Devil Racing	44
+19	39	Southern Illinois Univ at Carbondale	SAE Saluki Baja	42
+20	59	Central Michigan Univ	Chippewa Performance	41
+21	2	Ohio Northern Univ	Polar Bear Racing	39
+22	53	Kansas State Univ	Wildcat Racing	39
+23	42	North Carolina State Univ - Raleigh	Wolfpack Motorsports	38
+24	3	Northeastern Univ	Skunkworks	38
+25	68	New Mexico State Univ	NMSU Motorsports	38
+26	8	Univ of Louisville	Speed Motorsports	35
+27	55	Michigan State Univ	Michigan State Baja Racing SAE	34
+28	20	SUNY - Buffalo	UB Motorsports	34
+29	90	Univ of Maryland - College Park	Black Team	34
+30	72	North Carolina A & T State Univ	Aggie Racing	33
+31	77	Auburn Univ	War Eagle Racing	33
+32	44	Univ of Illinois - Urbana Champaign	Off Road Illini	33
+33	18	Kansas State Univ - Salina	KSU Salina Baja	33
+34	60	Case Western Reserve Univ	BBB Motorsports	31
+35	69	Univ of Virginia	Virginia Baja	31
+36	10	Univ of Tennessee -Chattanooga	UTC Racing Mocs	30
+37	92	Univ of Evansville	UE 2014	30
+38	75	Univ of Memphis	Tiger Baja	30
+39	49	Univ of Maryland - Baltimore County	Retriever Racing	29
+40	33	Tennessee Tech Univ	TTU Baja SAE	29
+41	87	Colorado School of Mines	Mines Baja Racing	28
+42	80	Univ of Regina	Cougar Motorsports	27
+43	26	Missouri University of Science and Tech	Miner Baja Racing	26
+44	21	Southern Alberta Inst of Tech	Statically Indeterminate Racing	26
+45	88	Univ of Kentucky - Paducah	UK Paducah Baja	26
+46	63	South Dakota Sch of Mines & Tech	Hardrocker Racing Blue	25
+47	76	Univ of Wisconsin - Madison	UW Madison Baja	25
+48	89	Univ of Toronto	UofT BAJA Team	24
+49	78	Univ of British Columbia	UBC Baja SAE	22
+50	71	Arizona State Univ Polytechnic	SunDevil Racing Development	21
+51	62	Univ of Missouri - Kansas City	UMKC Baja Racing	21
+52	36	West Virginia Univ Inst of Tech	WVU Tech SAE	20
+53	19	Univ of Puerto Rico	RUM Racing Baja	20
+54	41	Universidad Catolica Andres Bello	BajaUCAB	20
+55	47	Univ of North Carolina - Charlotte	49er Racing	19
+56	65	Univ of Rochester	Yellowjackets	18
+57	40	Universite Du Quebec at Rimouski	Nordic Wolf	16
+58	48	Montana State Univ - Bozeman	Bobcat Motorsports	15
+59	79	Conestoga College	Conestoga Off-road Baja Racing Association	15
+60	5	LeTourneau Univ	Renegade Racing	15
+61	25	Florida Inst of Tech	FIt Baja	14
+62	17	Union College	Union College Racing	13
+63	99	Baylor Univ	Baylor Baja	12
+64	95	Gyeongsang National Univ	Car-Tech	12
+65	81	Univ of Arkansas - Fayetteville	Racing Razorbacks	11
+66	46	Fairmont State Univ	Falcon Racing	11
+67	96	College of New Jersey	Motorlions	10
+68	14	Northwestern Univ	Northwestern Baja	9
+69	67	Lipscomb Univ	Lipscomb Motorsports	9
+70	100	Instituto Technolgico de Buenos Aires	ITBA Competition	9
+71	74	Univ of Akron	Zips Racing	8
+72	101	Instituto Tecnologico de Queretaro	Baja SAE ITQ	8
+73	32	Univ of New Orleans	UNO	7
+74	35	Univ of Oklahoma	Sooner Off-Road	6
+75	84	Montana Tech	Oredigger Baja '14	5
+76	52	Universite Laval	Alerion	4
+77	97	Wichita State Univ	Shocker Racing	4
+78	34	Penn State Univ - Altoona	Penn State Altoona Motorsports	4
+79	56	Johns Hopkins Univ	Hopkins Baja	4
+80	31	Pittsburg State University	Gorilla I (Dorothy)	3
+81	43	Kettering Univ	Bulldog Racing	2
+82	61	Franklin W Olin College of Engineering	Phoenix Racing	2
+83	37	Univ of Arizona	University of Arizona Baja Racing	2
+84	57	Escuela Sup de Ing Automotriz Ecatepec	CEDVA ECATEPEC	2
+85	54	Univ of Colorado - Denver	The Missing Lynx	2
+86	16	Univ of Tennessee - Knoxville	Team Tennessee	0
+87	22	Rowan Univ	Rowan Motorsports	0
+88	27	Univ of Colorado - Colorado Springs	Rocky Mountain Racing	0
+89	28	McMaster Univ	McMaster Baja Racing	0
+90	38	Queen's Univ - Ontario Canada	Queen's University Baja SAE	0
+91	50	Lehigh Univ	Mountain Hawk Racing	0
+92	51	Univ of Cincinnati	University of Cincinnati	0
+93	58	Royal Military College of Canada	RMCC Baja	0
+94	66	Cairo University	BCURT	0
+95	70	Purdue Univ - Calumet	PUC Motorsports	0
+96	73	Arizona State Univ - Tempe	ASU Tempe Baja	0
+97	82	Univ of Western Ontario	Western Baja SAE	0
+98	83	Univ of Alabama - Tuscaloosa	Bama Racing	0
+99	91	Government College of Engrg Pune	Team Nemesis Racing	0
+100	94	Universidad Nacional Aut¢noma de M‚xico	Puma Off-Road Team	0
+101	102	Alfred Univ	Saxon Racing	0
+102	103	Univ of Arkansas- Fort Smith	UAFS	0
+103	104	Ohio State Univ	Buckeye Baja	0
+104	106	Purdue Univ - W Lafayette	Titan	0
+105	107	Boston Univ	Boston University Baja	0
+106	109	Concordia University	Concordia Baja Racing	0
+107	110	California Polytechnic State Univ-SLO	Cal Poly Racing	0
+108	111	Univ of Missouri	Mizzou Baja	0
+109	112	Christian Brothers Univ	Bucs	0
+110	113	North Dakota State Univ	Bison Motorsports	0
+111	114	Univ of Alaska - Anchorage	Midnight Sun Racing	0
+112	115	Manipal Institute of Tech	Team Manipal Racing	0
+113	116	George Washington Univ	Geoff	0
+114	117	West Virginia Univ	Mountaineers	0
+115	118	Military Inst of Science & Technology	Baja Team	0
+116	119	Olympic College	Olympic College Baja Extreme	0
