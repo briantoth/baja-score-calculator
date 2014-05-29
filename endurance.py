@@ -16,7 +16,7 @@ def get_endurance_score(competition_name):
         laps = int(car['# of Laps'])
         if laps > max_laps:
             max_laps = laps
-        if laps < min_laps:
+        if laps < min_laps and laps > 0:
             min_laps = laps
 
     #figure out bonus points
@@ -40,10 +40,11 @@ def calc_bonus(car, carsOnLeadLap):
     max_bonus = 10
     min_bonus = 0
     my_bonus = 0
+    position = int(car["Current Position"])
     if carsOnLeadLap <= max_bonus:
-        my_bonus = carsOnLeadLap - int(car["Current Position"])
+        my_bonus = carsOnLeadLap - (position - 1)
     else:
-        my_bonus = max_bonus - (int(car["Current Position"]) - 1)
+        my_bonus = max_bonus - (position - 1)
 
     if my_bonus > min_bonus:
         return my_bonus
@@ -51,5 +52,5 @@ def calc_bonus(car, carsOnLeadLap):
         return min_bonus
 
 if __name__ == "__main__":
-    print(get_endurance_score()["24"])
+    print(get_endurance_score('el_paso_4-27-14')["81"])
 
