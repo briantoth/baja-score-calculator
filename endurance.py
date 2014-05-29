@@ -40,6 +40,9 @@ def calc_bonus(car, carsOnLeadLap):
     max_bonus = 10
     min_bonus = 0
     my_bonus = 0
+    if carsOnLeadLap == 1:
+        return 0
+
     position = int(car["Current Position"])
     if carsOnLeadLap <= max_bonus:
         my_bonus = carsOnLeadLap - (position - 1)
@@ -52,5 +55,5 @@ def calc_bonus(car, carsOnLeadLap):
         return min_bonus
 
 if __name__ == "__main__":
-    print(get_endurance_score('el_paso_4-27-14')["81"])
+    print(get_endurance_score('kansas_5-24-14')["45"])
 
