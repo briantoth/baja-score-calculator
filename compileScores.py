@@ -8,14 +8,14 @@ from sales import get_sales_score
 from st import get_st_score
 from endurance import get_endurance_score
 
-def get_compiled_score(competition_name, time_column):
+def get_compiled_score(competition_name, time_column_manuv, time_column_st):
     accelScores = get_accel_score(competition_name)
     costScores = get_cost_score(competition_name)
     designScores = get_design_score(competition_name)
     hillScores = get_hill_score(competition_name)
-    manuvScores = get_manuv_score(competition_name, time_column)
+    manuvScores = get_manuv_score(competition_name, time_column_manuv)
     salesScores = get_sales_score(competition_name)
-    stScores = get_st_score(competition_name, time_column)
+    stScores = get_st_score(competition_name, time_column_st)
     enduranceScores = get_endurance_score(competition_name)
     schools = {}
     with open(competition_name + "/schools.tsv", 'r') as f:
@@ -50,7 +50,7 @@ def get_score(scores, carNum):
     return 0
 
 if __name__ == "__main__":
-   output = get_compiled_score(sys.argv[1], sys.argv[2])
+   output = get_compiled_score(sys.argv[1], sys.argv[2], sys.argv[3])
    print("School Name, Car Number, Acceleration, Cost, Design, Hill, Maneuverability, Sales, Susp&Traction, Endurance, Overall")
    for num in output.keys():
        car = output[num]

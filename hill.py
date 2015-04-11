@@ -17,7 +17,7 @@ def get_hill_score(competition_name):
     for score in scores:
         time= float(score["Time"])
         if time > 0:
-            car_number = score["Car Number"]
+            car_number = score["Car Number"] if "Car Number" in score else score["Car No."]
             points = max_points * fastest_complete_time / time
             add_better_score(result, points, car_number)
 
@@ -28,7 +28,7 @@ def get_hill_score(competition_name):
 
     #now do everyone else
     for score in scores:
-        car_number = score["Car Number"]
+        car_number = score["Car Number"] if "Car Number" in score else score["Car No."]
         points = lowest_full_complete_score * get_distance(score)  / max_distance
         add_better_score(result, points, car_number)
 

@@ -9,7 +9,7 @@ def get_manuv_score(competition_name, time_column):
 
     for car in results:
         time = float(car[time_column])
-        carNum = car['Car Number']
+        carNum = car["Car Number"] if "Car Number" in car else car["Car No."]
         if carNum in corrected_results:
             if corrected_results[carNum] > time and time > 0:
                 corrected_results[carNum] = time
@@ -27,12 +27,18 @@ def get_manuv_score(competition_name, time_column):
         print worst
         print best
 
+    if worst > 2.5 * best:
+        worst = 2.5 * best
+
     scores = {}
 
     for carNum in corrected_results.keys():
-        time = float(car[time_column])
-        ratio = (worst-time)/(worst-best)
-        scores[carNum] = 75*ratio
+        time = float(corrected_results[carNum])
+        if time > worst:
+            scores[carNum] = 0
+        else :
+            ratio = (worst-time)/(worst-best)
+            scores[carNum] = 75*ratio
 
     if debug:
         print scores['35']
@@ -40,5 +46,5 @@ def get_manuv_score(competition_name, time_column):
     return scores
 
 if __name__ == "__main__":
-    get_manuv_score('el_paso_4-27-14', 'Adjusted Time');
+    print get_manuv_score('el_paso_4-27-14', 'Adjusted Time');
 

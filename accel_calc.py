@@ -11,7 +11,7 @@ def get_accel_score(competition_name):
 
     for car in results:
         time = float(car['Time'])
-        carNum = car['Car Number']
+        carNum = car["Car Number"] if "Car Number" in car else car["Car No."]
         if carNum in corrected_results:
             if corrected_results[carNum] > time and time > 0:
                 corrected_results[carNum] = time
