@@ -14,6 +14,7 @@ Car No.	School Name	Team Name	Status	Time	Distance
 19	Universidad Autonoma de Ciudad Juarez	Indios Racing	OK	35.52000	45 Stk
 22	Univ of Texas - Pan American	Baja Racing at UTPA	OK	35.25900	45 Stk
 22	Univ of Texas - Pan American	Baja Racing at UTPA	OK	31.36800	45 Stk
+71	Univ of Arkansas - Fayetteville	Racing Razorbacks	OK	41.12800	45 Stk
 66	Purdue Univ - Calumet	PUC Motorsports	OK	0.00000	1 Stk
 3	Iowa State Univ	Cyclone Racing	OK	30.97100	45 Stk
 101	Harding Univ	Bison Baja	OK	38.22100	45 Stk
@@ -59,6 +60,7 @@ Car No.	School Name	Team Name	Status	Time	Distance
 37	Universite de Sherbrooke	Sherbrooke Racing Team	OK	30.01200	45 Stk
 85	Univ of Evansville	Aces baja	OK	45.41300	45 Stk
 44	Univ of Notre Dame	Irish Racing	OK	30.54800	45 Stk
+108	California State Poly Univ - Pomona	Cal Poly Pomona Baja SAE	OK	38.96800	45 Stk
 65	Louisiana Tech Univ	Mud Dawg Racing	OK	86.44000	45 Stk
 53	SRM Engineering College	The Conrods Off-Road Racing	OK	42.11000	45 Stk
 37	Universite de Sherbrooke	Sherbrooke Racing Team	OK	29.06600	45 Stk
@@ -71,6 +73,7 @@ Car No.	School Name	Team Name	Status	Time	Distance
 26	Florida A&M Univ/Florida State Univ	F-Racing	OK	36.93300	45 Stk
 99	Embry-Riddle Aero Univ - Daytona Beach	Embry-Riddle Lady Eagles	OK	76.91600	45 Stk
 63	Univ of Missouri - Kansas City	UMKC Baja Racing	OK	34.24300	45 Stk
+3	Iowa State Univ	Cyclone Racing	OK	30.32700	45 Stk
 25	Pittsburg State University	Diddy Kong Racing	OK	46.72600	45 Stk
 110	Universidad Autonoma Estado Mexico	Sara Juana RT	OK	37.41600	45 Stk
 14	Cleveland State Univ	Viking Racing	OK	52.59900	45 Stk
@@ -87,6 +90,7 @@ Car No.	School Name	Team Name	Status	Time	Distance
 62	Central Michigan Univ	Chippewa Performance	OK	31.25100	45 Stk
 20	LeTourneau Univ	Renegade Racing	OK	42.29600	45 Stk
 52	Miami Univ	Redhawk Racing	OK	28.96700	45 Stk
+45	Univ of Alabama - Tuscaloosa	Bama Racing	OK	36.57000	45 Stk
 91	Case Western Reserve Univ	CWRU Motorsports	OK	32.17900	45 Stk
 20	LeTourneau Univ	Renegade Racing	OK	30.80700	45 Stk
 84	Universidad De La Salle Bajio	Bajio 1	OK	43.68100	45 Stk
@@ -102,3 +106,41 @@ Car No.	School Name	Team Name	Status	Time	Distance
 80	Lipscomb Univ	Lipscomb Motorsports	OK	37.13900	45 Stk
 50	Southern Illinois Univ at Carbondale	Saluki Baja	OK	37.29800	45 Stk
 88	Florida Inst of Tech	Florida Tech Motorsports	OK	0.00000	10 Stk
+25	Pittsburg State University	Diddy Kong Racing	OK	0.00000	17 Stk
+68	Middle Tennessee State Univ	MTSU Motorsports	OK	47.85500	45 Stk
+80	Lipscomb Univ	Lipscomb Motorsports	OK	34.77600	45 Stk
+86	North Carolina A & T State Univ	Aggie Racing	OK	44.85700	45 Stk
+50	Southern Illinois Univ at Carbondale	Saluki Baja	OK	37.84000	45 Stk
+88	Florida Inst of Tech	Florida Tech Motorsports	OK	84.66100	45 Stk
+77	Rowan Univ	Rowan Motorsports	OK	0.00000	2 Stk
+90	Michigan Tech Univ	Blizzard Baja	OK	30.47800	45 Stk
+28	Wichita State Univ	Shocker Racing	OK	31.43700	45 Stk
+10	Polytechnique Montréal	poly mud bees	OK	29.37500	45 Stk
+111	Univ of Cincinnati	Bearcats Baja	OK	30.06500	45 Stk
+57	Youngstown State Univ	Penguin Powersports	OK	34.89900	45 Stk
+68	Middle Tennessee State Univ	MTSU Motorsports	OK	50.18100	45 Stk
+53	SRM Engineering College	The Conrods Off-Road Racing	OK	33.09200	45 Stk
+40	Vellore Institute of Technology	Team Jaabaz	OK	38.23600	45 Stk
+90	Michigan Tech Univ	Blizzard Baja	OK	28.95700	45 Stk
+10	Polytechnique Montréal	poly mud bees	OK	28.95600	45 Stk
+59	Univ of Rochester	Yellowjacket Racing	OK	34.98400	45 Stk
+55	Univ of Wisconsin - Stout	Blue Devil Racing	OK	0.00000	18 Stk
+111	Univ of Cincinnati	Bearcats Baja	OK	30.78200	45 Stk
+18	Queen's Univ - Ontario Canada	Queen's University Baja SAE Design Team	OK	35.54300	45 Stk
+66	Purdue Univ - Calumet	PUC Motorsports	OK	34.47200	45 Stk
+43	Kettering Univ	Bulldog Racing	OK	38.01800	45 Stk
+57	Youngstown State Univ	Penguin Powersports	OK	31.90500	45 Stk
+41	Univ of Wisconsin - Madison	SAE Baja - UW Madison	OK	29.33700	45 Stk
+55	Univ of Wisconsin - Stout	Blue Devil Racing	OK	57.63300	45 Stk
+92	Univ of Arkansas- Fort Smith	UAFS	OK	0.00000	1 Stk
+83	California Polytechnic State Univ-SLO	Cal Poly Racing	OK	38.12600	45 Stk
+59	Univ of Rochester	Yellowjacket Racing	OK	0.00000	19 Stk
+43	Kettering Univ	Bulldog Racing	OK	42.12400	45 Stk
+18	Queen's Univ - Ontario Canada	Queen's University Baja SAE Design Team	OK	0.00000	21 Stk
+105	University of Mount Union	UMU Baja	OK	0.00000	1 Stk
+60	Univ of Virginia	Virginia Baja Racing	OK	42.91000	45 Stk
+29	Univ of Maryland - Baltimore County	UMBC Racing	OK	37.02500	45 Stk
+29	Univ of Maryland - Baltimore County	UMBC Racing	OK	29.87000	45 Stk
+34	West Virginia Univ Inst of Tech	WVU TECH	OK	0.00000	17 Stk
+79	Virginia Western Comm Coll	VWCC Motorsports	OK	31.29800	45 Stk
+36	Univ of Central Florida	KnightsRacing	OK	33.35800	45 Stk

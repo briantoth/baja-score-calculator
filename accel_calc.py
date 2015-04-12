@@ -26,9 +26,9 @@ def get_accel_score(competition_name):
         if time > worst:
             worst = time
 
-    ##if the slowest car is really slow, there is a floor on the worst time
-    #if worst > 1.5 * best:
-        #worst = 1.5 * best
+    #if the slowest car is really slow, there is a floor on the worst time
+    if worst > 1.5 * best:
+        worst = 1.5 * best
 
     if debug:
         print worst
@@ -38,8 +38,11 @@ def get_accel_score(competition_name):
 
     for carNum in corrected_results.keys():
         time = corrected_results[carNum]
-        score = 75 * (worst - time) / (worst - best)
-        scores[carNum] = score
+        if time > worst:
+            scores[carNum] = 0
+        else:
+            score = 75 * (worst - time) / (worst - best)
+            scores[carNum] = score
 
     if debug:
         print scores['35']
