@@ -7,7 +7,8 @@ def get_sales_score(competition_name):
     for car in results:
         carNum = car["Car Number"] if "Car Number" in car else car["Car No."]
         score = car ['Final Score']
-        scores[carNum] = float(score)
+        if carNum not in scores or scores[carNum] < float(score):
+            scores[carNum] = float(score)
 
     return scores
 

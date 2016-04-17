@@ -29,9 +29,12 @@ def get_endurance_score(competition_name):
         print("Number of cars on lead lap: " + str(carsOnLeadLap))
 
     for car in results:
-        carNum = car['Car Number']
+        carNum = car["Car Number"] if "Car Number" in car else car["Car No."]
         laps = float(car['# of Laps'])
-        scores[carNum] = 400 * (laps - min_laps) / (max_laps - min_laps) + calc_bonus(car, carsOnLeadLap)
+        if laps < min_laps:
+            scores[carNum] = 0
+        else:
+            scores[carNum] = 400 * (laps - min_laps) / (max_laps - min_laps) + calc_bonus(car, carsOnLeadLap)
 
     return scores
 
