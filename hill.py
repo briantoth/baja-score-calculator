@@ -35,7 +35,7 @@ def get_hill_score(competition_name):
     return result
 
 def get_distance(score):
-    return int(score["Distance"].split()[0])
+    return float(score["Distance"].split()[0])
 
 def add_better_score(result, new_score, car_number):
     if car_number not in result or new_score > result[car_number]:

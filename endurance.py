@@ -46,7 +46,7 @@ def calc_bonus(car, carsOnLeadLap):
     if carsOnLeadLap == 1:
         return 0
 
-    position = int(car["Current Position"])
+    position = int(car["# of Laps"])
     if carsOnLeadLap <= max_bonus:
         my_bonus = carsOnLeadLap - (position - 1)
     else:
