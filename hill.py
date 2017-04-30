@@ -8,8 +8,16 @@ def get_hill_score(competition_name):
     #first figure out the scores of those who made it
     fastest_complete_time = float("inf")
     max_distance = 0
+    max_distance_no_finish = 0
+    min_distance_no_finish = float("inf")
     for score in scores:
         time= float(score["Time"])
+        if get_distance(score) > max_distance_no_finish:
+            max_distance_no_finish = get_distance(score)
+
+        if get_distance(score) < min_distance_no_finish:
+            min_distance_no_finish = get_distance(score)
+
         if time > 0 and time < fastest_complete_time:
             max_distance = get_distance(score)
             fastest_complete_time = time
@@ -29,7 +37,11 @@ def get_hill_score(competition_name):
     #now do everyone else
     for score in scores:
         car_number = score["Car Number"] if "Car Number" in score else score["Car No."]
-        points = lowest_full_complete_score * get_distance(score)  / max_distance
+        if max_distance is 0:
+            points = 75 * (get_distance(score) - min_distance_no_finish) / (max_distance_no_finish - min_distance_no_finish)
+        else:
+            points = lowest_full_complete_score * get_distance(score)  / max_distance
+
         add_better_score(result, points, car_number)
 
     return result
