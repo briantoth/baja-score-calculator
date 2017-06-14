@@ -24,7 +24,7 @@ def get_compiled_score(competition_name, time_column_manuv, time_column_st):
             schools[data[0].strip()] = data[1].strip()
 
     overallScores = {}
-    for num in range(1,117):
+    for num in range(1,200):
         carNum = str(num)
         accel = get_score(accelScores, carNum)
         cost = get_score(costScores, carNum)

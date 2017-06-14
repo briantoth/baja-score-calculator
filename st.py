@@ -43,7 +43,7 @@ def get_st_score(competition_name, time_column):
     return result
 
 def get_distance(score):
-    return int(score["Distance"].split()[0])
+    return float(score["Distance"].split()[0])
 
 def add_better_score(result, new_score, car_number):
     if car_number not in result or new_score > result[car_number]:
