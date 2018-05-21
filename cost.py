@@ -1,8 +1,13 @@
 from column_parser import parse_columns
+import os.path
 
 def get_cost_score(competition_name):
     debug = False
-    results = parse_columns(competition_name + "/cost.tsv")
+    path_name = competition_name + "/cost.tsv"
+    if not os.path.isfile(path_name):
+        return {}
+
+    results = parse_columns(path_name)
     scores = {}
 
     for car in results:
